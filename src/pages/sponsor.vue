@@ -58,21 +58,21 @@ useHead({
 
     <base-customizable-link-card
       title="Newsletter"
-      path="https://ggt.ink/2CUG8y7"
+      path="https://news.pythoncheatsheet.org/sponsorship"
       :is-external="true"
     >
       Reach an ever-growing number of Python developers.
       <prose class="prose-sm">
         <ul>
-          <li>3000+ Subscribers</li>
-          <li>80/100 weekly subscribers</li>
+          <li>6000+ Subscribers</li>
+          <li>80/125 weekly subscribers</li>
         </ul>
       </prose>
     </base-customizable-link-card>
 
     <base-customizable-link-card
       title="GitHub"
-      path="https://ggt.ink/Q5HjIVK"
+      path="https://github.com/sponsors/wilfredinni"
       :is-external="true"
     >
       If you find this project useful, consider becoming an Sponsor on GitHub.

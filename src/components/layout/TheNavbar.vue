@@ -7,7 +7,7 @@ const route = useRoute()
   <nav
     class="sticky top-0 z-40 w-full flex-none border-b border-slate-900/10 bg-white/90 backdrop-blur dark:border-slate-50/[0.06] dark:bg-transparent lg:z-50"
   >
-    <kinsta-banner />
+    <!-- <kinsta-banner /> -->
     <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-12">
       <div class="relative flex h-14 justify-between">
         <the-sidebar-mobile />
@@ -28,7 +28,7 @@ const route = useRoute()
 
           <algolia-doc-search />
 
-          <a href="https://ggt.ink/PoVKNkO" rel="noreferrer">
+          <a href="https://news.pythoncheatsheet.org/" rel="noreferrer">
             <base-badge class="hidden lg:flex">
               <span class="hidden xl:flex">
                 ✨ Read the latest Python Cheatsheet Issue!
@@ -89,7 +89,11 @@ const route = useRoute()
           </div>
 
           <base-theme-toggle />
-          <a target="_blank" href="https://ggt.ink/vf7kKkS" rel="noreferrer">
+          <a
+            target="_blank"
+            href="https://github.com/wilfredinni/python-cheatsheet"
+            rel="noreferrer"
+          >
             <github-icon />
             <span class="sr-only">python cheatsheet repository</span>
           </a>

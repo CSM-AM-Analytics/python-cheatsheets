@@ -6,7 +6,7 @@ export const useNavigationStore = defineStore('navigation', {
       { name: 'Blog', path: '/blog', internal: true },
       {
         name: 'Newsletter',
-        path: 'https://ggt.ink/PoVKNkO',
+        path: 'https://news.pythoncheatsheet.org/',
         internal: false,
       },
     ],
@@ -24,7 +24,7 @@ export const useNavigationStore = defineStore('navigation', {
       {
         name: 'Basics',
         path: '/cheatsheet/basics',
-        updated: true,
+        updated: false,
       },
       {
         name: 'Built-in functions',
@@ -39,7 +39,7 @@ export const useNavigationStore = defineStore('navigation', {
       {
         name: 'Functions',
         path: '/cheatsheet/functions',
-        updated: true,
+        updated: false,
       },
 
       {
@@ -113,8 +113,13 @@ export const useNavigationStore = defineStore('navigation', {
         updated: false,
       },
       {
-        name: 'Main: top level script',
-        path: '/cheatsheet/main',
+        name: 'OOP',
+        path: '/cheatsheet/oop-basics',
+        updated: false,
+      },
+      {
+        name: 'Dataclasses',
+        path: '/cheatsheet/dataclasses',
         updated: false,
       },
       {
@@ -123,8 +128,8 @@ export const useNavigationStore = defineStore('navigation', {
         updated: false,
       },
       {
-        name: 'Dataclasses',
-        path: '/cheatsheet/dataclasses',
+        name: 'Main: top level script',
+        path: '/cheatsheet/main',
         updated: false,
       },
       {

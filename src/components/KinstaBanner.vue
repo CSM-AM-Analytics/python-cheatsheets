@@ -1,10 +1,12 @@
-<script setup></script>
-
 <template>
   <base-banner storage-key-name="kinsta-banner">
     <!-- mobile banner -->
     <template #shortMsg>
-      <a class="mx-auto" href="https://ggt.ink/PWTIPB9" rel="noreferrer">
+      <a
+        class="mx-auto px-2 py-1"
+        href="https://kinsta.com/application-hosting/?utm_source=pythoncheatsheet&utm_medium=digital&utm_campaign=python-hosting&utm_content=banner"
+        rel="noreferrer"
+      >
         <img
           src="/sponsors/kinsta/SVG/kinsta-mobile.png"
           loading="lazy"
@@ -17,7 +19,10 @@
     <!-- sm and up banner -->
     <template #message>
       <!-- logo -->
-      <a href="https://ggt.ink/PWTIPB9" rel="noreferrer">
+      <a
+        href="https://kinsta.com/application-hosting/?utm_source=pythoncheatsheet&utm_medium=digital&utm_campaign=python-hosting&utm_content=banner"
+        rel="noreferrer"
+      >
         <img
           class="hidden lg:flex"
           src="/sponsors/kinsta/SVG/PythonCheatSheet_banner_kinsta_logo.svg"
@@ -27,7 +32,10 @@
       </a>
 
       <!-- md banner -->
-      <a href="https://ggt.ink/PWTIPB9" rel="noreferrer">
+      <a
+        href="https://kinsta.com/application-hosting/?utm_source=pythoncheatsheet&utm_medium=digital&utm_campaign=python-hosting&utm_content=banner"
+        rel="noreferrer"
+      >
         <img
           class="hidden md:block"
           src="/sponsors/kinsta/SVG/PythonCheatSheet_banner_Text.svg"
@@ -37,7 +45,10 @@
       </a>
 
       <!-- banner action -->
-      <a href="https://ggt.ink/PWTIPB9" rel="noreferrer">
+      <a
+        href="https://kinsta.com/application-hosting/?utm_source=pythoncheatsheet&utm_medium=digital&utm_campaign=python-hosting&utm_content=banner"
+        rel="noreferrer"
+      >
         <img
           class="hidden lg:flex"
           src="/sponsors/kinsta/SVG/PythonCheatSheet_banner_button-main.svg"

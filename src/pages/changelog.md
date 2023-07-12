@@ -9,7 +9,25 @@ updated: February 25, 2023
 Changelog
 </base-title>
 
-<!-- ## [Unreleased](https://github.com/wilfredinni/python-cheatsheet/tree/next) -->
+## 2023-06-11
+
+- Added examples for built-in `format`, `issubclass`, `locals`, `pow`, `range`, `vars`. Thanks [@vaibhavb02](https://github.com/vaibhavb02)
+- Upgraded dependencies to the latest version.
+
+## 2023-06-11
+
+- Fixed a typo in Sets. Thanks [@alvyynm](https://github.com/alvyynm) ([#252](https://github.com/wilfredinni/python-cheatsheet/pull/252))
+- Upgraded dependencies to the latest version.
+
+## 2023-04-08
+
+- Added `input` example with `f-strings`. Thanks [@darkpixlz](https://github.com/darkpixlz) ([#204](https://github.com/wilfredinni/python-cheatsheet/pull/204))
+- Added more `OOP` details. Thanks [@noraa-july-stoke](https://github.com/noraa-july-stoke) ([#201](https://github.com/wilfredinni/python-cheatsheet/pull/201))
+
+
+## 2023-03-26
+
+- Added <router-link to='/cheatsheet/oop-basics'>OOP Basics</router-link>. Thanks [@noraa-july-stoke](https://github.com/noraa-july-stoke) ([#194](https://github.com/wilfredinni/python-cheatsheet/pull/194))
 
 ## 2023-03-18
 
@@ -46,7 +64,7 @@ Changelog
 ## 2023-01-30
 
 - Fixed some mistakes in Dictionaries. Thanks [@Acumane](https://github.com/Acumane) ([#155](https://github.com/wilfredinni/python-cheatsheet/pull/155))
-- Added `map` built-in details and examples. Thanks [@noraa-july-stoke](https://github.com/noraa-july-stoke) ([#156](https://github.com/wilfredinni/python-cheatsheet/pull/156))
+- Added `map` built-in details and examples. Thanks [@@noraa-july-stoke](https://github.com/noraa-july-stoke) ([#156](https://github.com/wilfredinni/python-cheatsheet/pull/156))
 
 ## 2023-01-16
 
@@ -124,7 +142,7 @@ Changelog
 
 ### Website
 
-- Launched Python Cheatsheet [newsletter](https://ggt.ink/PoVKNkO) 🎉
+- Launched Python Cheatsheet [newsletter](https://news.pythoncheatsheet.org/) 🎉
 - Added a newsletter subscription form component.
 
 ### Cheatsheet
