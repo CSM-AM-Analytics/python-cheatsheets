@@ -48,8 +48,7 @@ const showNewsletterForm = useLocalStorage('showNewsletterForm', true)
     <prose>
       <p class="text-center text-slate-700 dark:text-slate-400 sm:text-start">
         A bullshit free
-        <a href="https://news.pythoncheatsheet.org/" rel="noreferrer"
-          >publication</a
+        <router-link to="/newsletter" rel="noreferrer">publication</router-link
         >, full of interesting, relevant links.
       </p>
     </prose>
@@ -95,18 +94,14 @@ const showNewsletterForm = useLocalStorage('showNewsletterForm', true)
     </form>
 
     <template v-if="response?.email">
-      <p
-        class="mx-3 mt-3 text-center text-sm font-medium text-sky-700 dark:text-sky-400"
-      >
+      <p class="mx-3 mt-2 text-sm font-medium text-sky-700 dark:text-sky-400">
         Thank you for subscribing! Please check your email to confirm your
         subscription. Be sure to check your junk folder.
       </p>
     </template>
 
-    <template v-else-if="response?.success == false">
-      <p
-        class="mt-2 text-center text-sm font-medium text-sky-700 dark:text-sky-400"
-      >
+    <template v-else-if="response?.errors">
+      <p class="mt-2 text-sm font-medium text-sky-700 dark:text-sky-400">
         You are already subscribed. Thanks!
       </p>
     </template>

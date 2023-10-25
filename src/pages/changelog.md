@@ -9,7 +9,32 @@ updated: February 25, 2023
 Changelog
 </base-title>
 
-## 2023-06-11
+## 2023-10-13
+
+- Added examples for Boolean Operators. Thanks [@omii2k01](https://github.com/omii2k01)
+- Added `count` string method. Thanks [@omii2k01](https://github.com/omii2k01)
+- Added multiple exceptions handling. Thanks [@LairdStreak](https://github.com/LairdStreak)
+- Fixed grammatical error for the contributing page description. [@AdamRosas27](https://github.com/AdamRosas27)
+- Fixed typo in control flow page. [@supersandra](https://github.com/supersandra)
+- Updated dependencies to the latest versions.
+
+## 2023-09-19
+
+- Added `walrus` Operator. Thanks [@omii2k01](https://github.com/omii2k01)
+
+## 2023-08-26
+
+- Added `dir` built in function.
+
+## 2023-08-06
+
+- Added `exec` built in function.
+
+## 2023-07-15
+
+- Added `copy` module to modules section. Thanks [@MozarM](https://github.com/MozarM)
+
+## 2023-07-12
 
 - Added examples for built-in `format`, `issubclass`, `locals`, `pow`, `range`, `vars`. Thanks [@vaibhavb02](https://github.com/vaibhavb02)
 - Upgraded dependencies to the latest version.

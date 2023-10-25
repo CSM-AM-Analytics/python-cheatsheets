@@ -25,11 +25,11 @@ export default defineConfig(({ mode }) => {
 
     server: {
       proxy: {
-        '/api': {
-          target: process.env.VITE_CURATED_ENDPOINT,
+        '/newsletter': {
+          target: process.env.VITE_GRUDGET_ENDPOINT,
           changeOrigin: true,
           secure: false,
-          rewrite: (path) => path.replace(/^\/api/, ''),
+          rewrite: (path) => path.replace(/^\/newsletter/, ''),
         },
       },
     },

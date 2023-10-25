@@ -36,6 +36,7 @@
         "darkpixlz",
         "dataclass",
         "Dbfilename",
+        "deepcopy",
         "delattr",
         "Distutils",
         "divmod",
@@ -97,6 +98,7 @@
         "memoryview",
         "mkdir",
         "mkvirtualenv",
+        "Mozar",
         "mydata",
         "mypy",
         "namelist",
@@ -108,6 +110,7 @@
         "nugel",
         "nums",
         "ohmyfetch",
+        "omii",
         "pathe",
         "pathlib",
         "pathobj",
@@ -138,6 +141,7 @@
         "rjust",
         "rmtree",
         "Robocop",
+        "Rosas",
         "rstrip",
         "Ruamel",
         "setattr",
@@ -152,6 +156,7 @@
         "strfunc",
         "strptime",
         "subfolders",
+        "supersandra",
         "Sweigart",
         "takewhile",
         "thacer13",
@@ -199,4 +204,8 @@
     "cSpell.language": "en",
     "editor.fontLigatures": true,
     "editor.fontSize": 17,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

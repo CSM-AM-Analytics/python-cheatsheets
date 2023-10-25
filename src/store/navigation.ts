@@ -3,12 +3,8 @@ import { acceptHMRUpdate, defineStore } from 'pinia'
 export const useNavigationStore = defineStore('navigation', {
   state: () => ({
     navbarNavigation: [
+      { name: 'Newsletter', path: '/newsletter', internal: true },
       { name: 'Blog', path: '/blog', internal: true },
-      {
-        name: 'Newsletter',
-        path: 'https://news.pythoncheatsheet.org/',
-        internal: false,
-      },
     ],
     mainNavigation: [
       {
@@ -18,6 +14,10 @@ export const useNavigationStore = defineStore('navigation', {
       {
         name: 'Contributing',
         path: '/contributing',
+      },
+      {
+        name: 'Changelog',
+        path: '/changelog',
       },
     ],
     cheatsheetNavigation: [
@@ -29,12 +29,12 @@ export const useNavigationStore = defineStore('navigation', {
       {
         name: 'Built-in functions',
         path: '/cheatsheet/built-in-functions',
-        updated: true,
+        updated: false,
       },
       {
         name: 'Control flow',
         path: '/cheatsheet/control-flow',
-        updated: false,
+        updated: true,
       },
       {
         name: 'Functions',
@@ -65,7 +65,7 @@ export const useNavigationStore = defineStore('navigation', {
       {
         name: 'Manipulating strings',
         path: '/cheatsheet/manipulating-strings',
-        updated: false,
+        updated: true,
       },
       {
         name: 'String formatting',
@@ -95,7 +95,7 @@ export const useNavigationStore = defineStore('navigation', {
       {
         name: 'Exception handling',
         path: '/cheatsheet/exception-handling',
-        updated: false,
+        updated: true,
       },
       {
         name: 'Debugging',
@@ -140,6 +140,11 @@ export const useNavigationStore = defineStore('navigation', {
     ],
     standardLibraryNavigation: [
       {
+        name: 'Copy',
+        path: '/modules/copy-module',
+        updated: false,
+      },
+      {
         name: 'Datetime',
         path: '/modules/datetime-module',
       },
@@ -152,16 +157,16 @@ export const useNavigationStore = defineStore('navigation', {
         path: '/modules/json-module',
       },
       {
-        name: 'Random',
-        path: '/modules/random-module',
-      },
-      {
         name: 'Os',
         path: '/modules/os-module',
       },
       {
         name: 'Pathlib',
         path: '/modules/pathlib-module',
+      },
+      {
+        name: 'Random',
+        path: '/modules/random-module',
       },
       {
         name: 'Shelve',
